@@ -1,0 +1,18 @@
+
+// sass --watch assets/css/scss/home.min.scss:assets/css/home.min.css
+
+$vitrine-blue: #192C53;
+$vitrine-gray: #747474;
+
+@import "page";
+@import "artilheiros";
+@import "topo";
+@import "banners";
+@import "campeoes";
+@import "curioridades";
+@import "estatisticas";
+@import "historia";
+@import "reset";
+@import "uniformes";
+@import "reset";
+@import "font";

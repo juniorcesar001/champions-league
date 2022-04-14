@@ -20,6 +20,7 @@
   font-size: 24px;
   line-height: 120%;
   color: white;
+  width: 80%;
 }
 .topo-description {
   margin-top: 20px;
@@ -31,6 +32,20 @@
 @media (max-width: 800px) {
   .topo {
     background-image: url("../../img/topo/topo_mob.jpg");
+    padding: 40px 15px;
+  }
+  .topo-logo {
+    width: 160px;
+    margin: 0 auto;
+    display: block;
+  }
+  .topo-title {
+    text-align: center;
+    width: 100%;
+  }
+  .topo-description {
+    text-align: left;
+    font-size: 14px;
   }
 }
 hr {

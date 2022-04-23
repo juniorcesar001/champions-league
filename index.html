@@ -7,11 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="assets/css/champions-league.min.css" rel="stylesheet">
-
+    <link href="assets/css/slick.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/champions-league.min.css" rel="stylesheet" type="text/css">
+    
     <title>Champions league</title>
   </head>
-  <body>
+  <body class="champions-league">
 
     <!-- TOPO -->
     <section class="topo">
@@ -19,7 +20,9 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-5 topo-left">
-              <img src="img/logo_ucl.svg" alt="Logo da Champions League" class="topo-logo">
+            <div class="progressive">
+              <img data-src="img/logo_ucl.svg" src="img/loading.svg" class="topo-logo lazy" alt="Logo da Champions League" >
+            </div>
               <h2 class="topo-title">Bem-vindo ao almanaque da Champions League</h2>
               <p class="topo-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Morbi gravida eros eros, eget malesuada leo cursus eu. Sed congue,
@@ -38,20 +41,22 @@
 
     <!-- HISTORIA -->
     <section class="historia">
-      <div class="container-fluid">
-        <h3 class="historia-title">História</h3>
+      <div class="container">
+
+        <h2 class="historia-title">História</h2>
 
         <div class="historia-slick">
           <div class="item">
-            <div class="d-flex">
+            <div class="row">
               <div class="col-12 col-md-7">
-                <img src="img/historia/historia-1.jpeg" alt="História do 1...">
+                <img class="item-img" src="img/historia/historia-1.jpeg" alt="História do 1...">
               </div>
               <div class="col-12 col-md-5">
-                <h3 class="historia-text">História</h3>
-                <h2 class="historia-title">O começo</h2>
+                <h3 class="item-text">História</h3>
+                <h2 class="item-title">O começo</h2>
 
-                <div class="historia-description">
+                <div class="item-description seemore-container seemore-close">
+                  <button class="item-description-button  d-block d-md-none">Ver Mais...</button>
                   <p>A UEFA Champions League surgiu em no ano de 1955 e era chamada de Copa dos Campões
                     da Europa. Inicialmente, o torneio reunia os campeões de cada país europeu que se enfrentariam
                     em uma grande Copa. 
@@ -62,13 +67,39 @@
                     e da Copa Rio, dois torneiros organizados por sul-americanos, que opunham forças
                     nacionais em uma grande competição continental. 
                   </p>
-                  <p>
-                    
+                  <p> Após algumas tentativas frustradas, surge a Copa dos Campeões da Europa. Junto dela, aparece para o restante da Europa e do mundo o gigante Real Madrid. Inicialmente, o domínio dos merengues foi tanto que as cinco primeiras edições foram vencidas pela equipe espanhola.
                   </p>
-
-                    Após algumas tentativas frustradas, surge a Copa dos Campeões da Europa. Junto dela, aparece para o restante da Europa e do mundo o gigante Real Madrid. Inicialmente, o domínio dos merengues foi tanto que as cinco primeiras edições foram vencidas pela equipe espanhola.
-                    </p>
                 </div>
+                
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-12 col-md-7">
+                <img class="item-img" src="img/historia/historia-1.jpeg" alt="História do 1...">
+              </div>
+              <div class="col-12 col-md-5">
+                <h3 class="item-text">História</h3>
+                <h2 class="item-title">O começo</h2>
+
+                <div class="item-description seemore-container seemore-close">
+                  <button class="item-description-button d-block d-md-none">Ver Mais...</button>
+                  <p>A UEFA Champions League surgiu em no ano de 1955 e era chamada de Copa dos Campões
+                    da Europa. Inicialmente, o torneio reunia os campeões de cada país europeu que se enfrentariam
+                    em uma grande Copa. 
+                  </p>
+                  <p> A ideia surgiu dos jornalistas franceses Jacques Ferran e Gabriel Hanot, que
+                    trabalhavam para o periódico local L'Équipe. Segundo eles, em entrevista no ano
+                    de 2018, a inspiração do torneio surgiu após o Campeonato Sul-Americano de Campeões
+                    e da Copa Rio, dois torneiros organizados por sul-americanos, que opunham forças
+                    nacionais em uma grande competição continental. 
+                  </p>
+                  <p> Após algumas tentativas frustradas, surge a Copa dos Campeões da Europa. Junto dela, aparece para o restante da Europa e do mundo o gigante Real Madrid. Inicialmente, o domínio dos merengues foi tanto que as cinco primeiras edições foram vencidas pela equipe espanhola.
+                  </p>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -80,31 +111,698 @@
 
     <!-- CAMPEÕES -->
     <section class="campeoes">
-      
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h2 class="campeoes-title">Campeões</h2>
+            <div class="campeoes-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida eros eros, eget malesuada leo cursus eu. Sed congue, augue vel eleifend aliquam, magna odio rutrum erat, quis ullamcorper risus lorem vel est. Phasellus vestibulum consectetur scelerisque. Nullam volutpat fringilla ante, vitae auctor justo dapibus et. Quisque vel risus nec mi eleifend eleifend. Phasellus suscipit tellus sit amet mi rutrum, ut hendrerit risus semper. Proin sollicitudin feugiat est hendrerit malesuada. Maecenas condimentum a mauris a lobortis. Proin vitae volutpat enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sed lacus semper est posuere consequat sit amet ut sem.
+              </p>
+            </div>
+            
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="d-flex campeoes-times">
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Real Madrid</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Milan</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Bayer de Munique</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Liverpool</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Barcelona</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- CURIOSIDADES -->
     <section class="curiosidade">
       
+      <div class="container">
+        <h2 class="curiosidade-title">Curiosidades</h2>
+        <div class="curiosidade-slick">
+
+          <div class="contain">
+            <div class="item">
+              <div class="item-img">
+                <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+              </div>
+              <h5 class="item-title">MAIOR CAMPEÃO</h5>
+              <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+              </div>
+              <h5 class="item-title">MAIOR CAMPEÃO</h5>
+              <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+              </div>
+              <h5 class="item-title">MAIOR CAMPEÃO</h5>
+              <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+            </div>
+          </div>
+          
+
+
+        </div>
+      </div>
+      
     </section>
 
     <!-- BANNERS -->
     <section class="banners">
-      
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 banners-left">
+            <div class="banner">
+              <img src="img/banners/banner_1.jpg" alt="" class="banner-img">
+              <a href="" class="banner-title">
+                <span>Confira</span>
+                <i></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 banners-right">
+            <div class="d-flex">
+              <div class="banner">
+                <img src="img/banners/banner_2.jpg" alt="" class="banner-img">
+                <a href="" class="banner-title">
+                  <span>Confira</span>
+                  <i></i>
+                </a>
+              </div>
+              <div class="banner">
+                <img src="img/banners/banner_3.jpg" alt="" class="banner-img">
+                <a href="" class="banner-title">
+                  <span>Confira</span>
+                  <i></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="banner banner-full">
+              <img src="img/banners/banner_4.jpg" alt="" class="banner-img">
+              <a href="" class="banner-title">
+                <span>Confira</span>
+                <i></i>
+              </a>
+            </div>
+
+
+          </div>
+          
+        </div>
+      </div>
     </section>
 
     <!-- ARTILHEIROS -->
     <section class="artilheiros">
-      
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 artilheiros-slick">
+            <div class="item">
+              <div class="d-flex">
+                <div class="item-description">
+                  <h3 class="item-description-title">Artilheiros</h3>
+                  <div class="item-description-text">
+                    <p>O Sr. Champions! Cristiano Ronaldo simplesmente derrubou praticamente todos os 
+                      recordes individuais. Mais que isso, ele fez o que parecia ser impossível, atingiu 
+                      a marca de 141 gols marcados na competição mais importante do mundo. Durante os 
+                      últimos 17 anos, ele e Messi elevaram ao topo o nível do futebol, consequentemente 
+                      da liga mais importante do mundo.</p>
+                    <p> Rivais em praticamente todas as estatísticas, CR7 fez com que a UEFA Champions
+                      League parecesse algo fácil. Lider em gols, assistências, jogos e pênaltis convertidos.
+                      Sim, o portuga pode ser considerado o maior jogador da história do torneio. </p>
+                  </div>
+                </div>
+                <div class="item-player">
+                  <div class="item-player-thumb">
+                    <img src="img/artilheiros/cr7.png" alt="Simplesmente CR7">
+                  </div>
+                  <div class="item-player-name">
+                    <h5>Jogador</h5>
+                    <span>Cristiano Ronaldo</span>
+                  </div>
+                  <div class="item-player-bottom">
+                    <div class="item-player-bottom-gols">
+                      <h5>Gols:</h5>
+                      <span>141</span>
+                    </div>
+                    <div class="item-player-bottom-times">
+                      <h5>Clubes:</h5>
+                      <img src="img/escudos/real_madrid.png" alt="">
+                      <img src="img/escudos/manchester_united.png" alt="">
+                      <img src="img/escudos/juventus.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="d-flex">
+                <div class="item-description">
+                  <h3 class="item-description-title">Artilheiros</h3>
+                  <div class="item-description-text">
+                    <p>O Sr. Champions! Cristiano Ronaldo simplesmente derrubou praticamente todos os 
+                      recordes individuais. Mais que isso, ele fez o que parecia ser impossível, atingiu 
+                      a marca de 141 gols marcados na competição mais importante do mundo. Durante os 
+                      últimos 17 anos, ele e Messi elevaram ao topo o nível do futebol, consequentemente 
+                      da liga mais importante do mundo.</p>
+                    <p> Rivais em praticamente todas as estatísticas, CR7 fez com que a UEFA Champions
+                      League parecesse algo fácil. Lider em gols, assistências, jogos e pênaltis convertidos.
+                      Sim, o portuga pode ser considerado o maior jogador da história do torneio. </p>
+                  </div>
+                </div>
+                <div class="item-player">
+                  <div class="item-player-thumb">
+                    <img src="img/artilheiros/cr7.png" alt="Simplesmente CR7">
+                  </div>
+                  <div class="item-player-name">
+                    <h5>Jogador</h5>
+                    <span>Cristiano Ronaldo</span>
+                  </div>
+                  <div class="item-player-bottom">
+                    <div class="item-player-bottom-gols">
+                      <h5>Gols:</h5>
+                      <span>141</span>
+                    </div>
+                    <div class="item-player-bottom-times">
+                      <h5>Clubes:</h5>
+                      <img src="img/escudos/real_madrid.png" alt="">
+                      <img src="img/escudos/manchester_united.png" alt="">
+                      <img src="img/escudos/juventus.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="d-flex">
+                <div class="item-description">
+                  <h3 class="item-description-title">Artilheiros</h3>
+                  <div class="item-description-text">
+                    <p>O Sr. Champions! Cristiano Ronaldo simplesmente derrubou praticamente todos os 
+                      recordes individuais. Mais que isso, ele fez o que parecia ser impossível, atingiu 
+                      a marca de 141 gols marcados na competição mais importante do mundo. Durante os 
+                      últimos 17 anos, ele e Messi elevaram ao topo o nível do futebol, consequentemente 
+                      da liga mais importante do mundo.</p>
+                    <p> Rivais em praticamente todas as estatísticas, CR7 fez com que a UEFA Champions
+                      League parecesse algo fácil. Lider em gols, assistências, jogos e pênaltis convertidos.
+                      Sim, o portuga pode ser considerado o maior jogador da história do torneio. </p>
+                  </div>
+                </div>
+                <div class="item-player">
+                  <div class="item-player-thumb">
+                    <img src="img/artilheiros/cr7.png" alt="Simplesmente CR7">
+                  </div>
+                  <div class="item-player-name">
+                    <h5>Jogador</h5>
+                    <span>Cristiano Ronaldo</span>
+                  </div>
+                  <div class="item-player-bottom">
+                    <div class="item-player-bottom-gols">
+                      <h5>Gols:</h5>
+                      <span>141</span>
+                    </div>
+                    <div class="item-player-bottom-times">
+                      <h5>Clubes:</h5>
+                      <img src="img/escudos/real_madrid.png" alt="">
+                      <img src="img/escudos/manchester_united.png" alt="">
+                      <img src="img/escudos/juventus.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 artilheiros-nav">
+            <div class="item">
+              <table>
+                <tr class="item-header">
+                    <th>Jogador:</th>
+                    <th>Gols:</th>
+                </tr>
+                <tr class="item-active">
+                    <td>
+                      <img src="img/artilheiros/cr7.png" alt="CR7">
+                      <span>Cristiano Ronaldo</span>
+                    </td>
+                    <td>
+                      <span>141</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <img src="img/artilheiros/cr7.png" alt="CR7">
+                      <span>Cristiano Ronaldo</span>
+                    </td>
+                    <td>
+                      <span>141</span>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/artilheiros/cr7.png" alt="CR7">
+                    <span>Cristiano Ronaldo</span>
+                  </td>
+                  <td>
+                    <span>141</span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- UNIFORME -->
-    <section class="uniforme">
-      
+    <section class="uniformes">
+      <div class="container">
+        <div class="uniformes-slick">
+          <div class="item">
+            <h3 class="item-title d-block d-md-none">Uniformes Marcantes</h3>
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <h3 class="item-title d-none d-md-block">Uniformes Marcantes</h3>
+
+                <h4 class="item-time">Barcelona 2011</h4>
+                <div class="item-description">
+                  <p>Um dos maiores times de todos os tempos também ficou eternizado 
+                    pelo uniforme que vestia. O lendário Barcelona do Guardiola atingiu 
+                    um nível de jogo talvez nunca antes visto na história da UEFA 
+                    Champions League. Era a consagração de uma ideia construída a mais 
+                    de uma década e que levou o desempenho ao ápice. Como não lembrar 
+                    dos duelos contra o Real Madrid nas semis do torneio? O Messi passeava
+                    pelo gramado de Madrid e as golas amarelas da camisa não eram nem
+                    notadas perto da beleza de ver aquele time jogar. </p>
+                </div>
+                
+              </div>
+              <div class="col-12 col-md-7">
+                <div class="item-img">
+                  <img src="img/camisas/barcelona_2011.png" alt="Barcelona 2011">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <h3 class="item-title d-block d-md-none">Uniformes Marcantes</h3>
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <h3 class="item-title d-none d-md-block">Uniformes Marcantes</h3>
+
+                <h4 class="item-time">Barcelona 2011</h4>
+                <div class="item-description">
+                  <p>Um dos maiores times de todos os tempos também ficou eternizado 
+                    pelo uniforme que vestia. O lendário Barcelona do Guardiola atingiu 
+                    um nível de jogo talvez nunca antes visto na história da UEFA 
+                    Champions League. Era a consagração de uma ideia construída a mais 
+                    de uma década e que levou o desempenho ao ápice. Como não lembrar 
+                    dos duelos contra o Real Madrid nas semis do torneio? O Messi passeava
+                    pelo gramado de Madrid e as golas amarelas da camisa não eram nem
+                    notadas perto da beleza de ver aquele time jogar. </p>
+                </div>
+                
+              </div>
+              <div class="col-12 col-md-7">
+                <div class="item-img">
+                  <img src="img/camisas/barcelona_2011.png" alt="Barcelona 2011">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <h3 class="item-title d-block d-md-none">Uniformes Marcantes</h3>
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <h3 class="item-title d-none d-md-block">Uniformes Marcantes</h3>
+
+                <h4 class="item-time">Barcelona 2011</h4>
+                <div class="item-description">
+                  <p>Um dos maiores times de todos os tempos também ficou eternizado 
+                    pelo uniforme que vestia. O lendário Barcelona do Guardiola atingiu 
+                    um nível de jogo talvez nunca antes visto na história da UEFA 
+                    Champions League. Era a consagração de uma ideia construída a mais 
+                    de uma década e que levou o desempenho ao ápice. Como não lembrar 
+                    dos duelos contra o Real Madrid nas semis do torneio? O Messi passeava
+                    pelo gramado de Madrid e as golas amarelas da camisa não eram nem
+                    notadas perto da beleza de ver aquele time jogar. </p>
+                </div>
+                
+              </div>
+              <div class="col-12 col-md-7">
+                <div class="item-img">
+                  <img src="img/camisas/barcelona_2011.png" alt="Barcelona 2011">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
 
     <!-- ESTATÍSTICA -->
     <section class="estatistica">
+      <div class="container">
+        <div class="estatistica-players">
+          <h2 class="estatistica-title">Estatísticas Jogadores</h2>
+          <div class="estatistica-slick">
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
     </section>
     
@@ -115,7 +813,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="assets/js/vendor/slick/slick.min.js"></script>
-
+    <script src="https://unpkg.com/progressive-image@1.2.0/dist/index.js"></script>
     <script src="assets/js/modules/page.js"></script>
 </body>
 </html>

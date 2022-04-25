@@ -35,3 +35,40 @@ $blue_lighter: #0B1F97;
         }
     }
 }
+
+
+.home-newsletter {
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #F4F5F8;
+
+    .msg {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .form-control {
+        padding: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #747474;
+        opacity: 0.8;
+        border: 1px solid #192C53;
+    }
+    .type_EMAIL {
+        margin-top: 8px;
+    }
+    .invi-select {
+        margin-top: 12px;
+    }
+    .btn {
+        margin-top: 12px;
+        background-color: #192C53;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 8px;
+    }
+}

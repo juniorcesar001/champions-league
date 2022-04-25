@@ -136,6 +136,41 @@
   width: 40px;
 }
 
+.home-newsletter {
+  margin: 20px 0;
+  border-radius: 10px;
+  background: #F4F5F8;
+}
+.home-newsletter .msg {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.home-newsletter .form-control {
+  padding: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #747474;
+  opacity: 0.8;
+  border: 1px solid #192C53;
+}
+.home-newsletter .type_EMAIL {
+  margin-top: 8px;
+}
+.home-newsletter .invi-select {
+  margin-top: 12px;
+}
+.home-newsletter .btn {
+  margin-top: 12px;
+  background-color: #192C53;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 8px;
+}
+
 .topo {
   background-image: url("../../../img/topo/topo_desk.jpg");
   background-repeat: no-repeat;

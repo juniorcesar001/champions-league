@@ -2,14 +2,18 @@
     padding: 75px 0 96px;
 
     
+    .col-12 {
 
+    }
     &-left {
-        .banner {
-
-        }
+        padding: 0 10px 0 0;
     }
     &-right {
-
+        padding: 0 0 0 10px;
+        .d-flex {
+            flex-direction: column;
+            justify-content: space-between;
+        }
     }
 
     .banner {
@@ -18,6 +22,10 @@
         border-radius: 10px;
         overflow: hidden;
         position: relative;
+        &-row {
+            display: flex;
+            gap: 20px;
+        }
         img {
             width: 100%;
         }

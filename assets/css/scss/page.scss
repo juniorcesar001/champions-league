@@ -39,22 +39,98 @@ $blue_lighter: #0B1F97;
 
 .home-newsletter {
     margin: 20px 0;
+    padding: 0 100px;
     border-radius: 10px;
     background: #F4F5F8;
+    background-image: url('../../../img/newsletter/fundo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
 
+    @media (min-width: 500px) and (max-width: 1000px) {
+        background-image: none !important;
+        &-1 {
+            display: none;
+        }
+        &-2 {
+            padding: 20px;
+        }
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 24px;
+        color: white;
+    }
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: white;
+    }
+    &-btns {
+        a {
+            z-index: 5;
+        }
+        img {
+            width: 150px;
+            margin-right: 20px;
+        }
+    }
+    &-coupon {
+        margin-top: 35px;
+        width: 220px;
+    }
+    &-screen {
+        max-height: 280px;
+        overflow: hidden;
+    }
+    @media (max-width: 1200px) {
+        &-screen {
+            max-height: 200px;
+        }
+        &-coupon {
+            margin-top: 15px;
+            width: 220px;
+        }
+        
+    }
+    
     .msg {
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
+        color: #192C53;
     }
     .form-control {
         padding: 8px;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 19px;
         color: #747474;
         opacity: 0.8;
         border: 1px solid #192C53;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    select {
+        width: 100%;
+        border-radius: 4px;
+        padding: 8px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #747474;
+        opacity: 0.8;
+        border: 1px solid #192C53;
+        &:focus {
+            box-shadow: inset;
+        }
+        &:focus {
+            box-shadow: inset;
+        }
     }
     .type_EMAIL {
         margin-top: 8px;
@@ -67,8 +143,59 @@ $blue_lighter: #0B1F97;
         background-color: #192C53;
         color: white;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 19px;
         padding: 8px;
+        width: 100%
     }
+}
+
+@media (max-width: 800px) {
+    .home-newsletter {
+        padding: 0 20px 20px 20px;
+        overflow: hidden;
+        background-image: url('../../../img/newsletter/fundo_mob.png');
+        .msg {
+            strong {
+                font-weight: 900;
+            }
+        }
+        p, h2 {
+            margin-top: 0;
+        }
+        h2 {
+            margin-bottom: 0;
+        }
+        .box {
+            padding: 35px 0 0 35px;
+        }
+        &-btns {
+            flex-direction: column;
+            img {
+                margin-top: 15px;
+            }
+        }
+        &-screen {
+            max-height: 500px;
+            margin-left: -180px;
+        }
+        &-coupon {
+            margin-top: 35px;
+        }
+        .form-control, select {
+            font-size: 16px;
+        }
+        .type_EMAIL {
+            margin-top: 5px;
+        }
+        .invi-select {
+            margin-top: 5px;
+        }
+        .btn {
+            margin-top: 5px;
+            padding: 10px 0;
+            font-size: 16px;
+        }
+    }
+
 }

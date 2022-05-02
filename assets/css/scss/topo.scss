@@ -8,6 +8,9 @@
 
     &-logo {
         width: 221px;
+        img {
+            width: 221px;
+        }
     }
 
     &-title {
@@ -28,7 +31,23 @@
     }
 
     &-down {
-
+        width: 100%;
+        display: block;
+        position: relative;
+        bottom: -100px;
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+            i {
+                display: block;
+                margin: 0 auto;
+                color: white;
+                font-size: 40px;
+                text-align: center;
+            }
+        }
+        
     }
 }
 
@@ -41,6 +60,9 @@
             width: 160px;
             margin: 0 auto;
             display: block;
+            img {
+                width: 160px;
+            }
         }
     
         &-title {
@@ -53,7 +75,7 @@
         }
     
         &-down {
-    
+            bottom: 0;
         }
     }
 

@@ -14,28 +14,42 @@
   </head>
   <body class="champions-league">
 
-
-    <div class="container-fluid">
-      <div class="home-newsletter py-4 px-5 p-md-5">
+    <div class="container">
+      <div class="home-newsletter ">
         <div class="row align-items-center">
-            <div class="col-12 col-lg-4 col-xl-4">
-              <h2>Faça a sua torcida </h2>
-              <p>com o App da FutFanatics</p>
-                <div class="d-flex">
-                  <img src="img/newsletter/app-store.png" alt="">
-                  <img src="img/newsletter/play-store.png" alt="">
-                </div>
-                <img src="img/newsletter/cupom_desk.png" alt="">
-                
-                
-            </div>
+            <div class="home-newsletter-1 col-12 col-xl-7 col-lg-6">
 
-            <div class="col-12 col-lg-4 col-xl-4">
-                <img src="img/newsletter/cupom_desk.png" alt="">
-  
+              <div class="d-flex">
+                <div class="col-8 col-lg-6">
+                  <div class="d-flex justify-content-center align-items-md-center h-100">
+                    <div class="box">
+                      <h2>Faça a sua torcida </h2>
+                      <p>com o App da FutFanatics</p>
+                      
+                      <div class="d-flex home-newsletter-btns">
+                        <a href="#">
+                          <img src="img/newsletter/play-store.png" alt="">
+                        </a>
+                        <a href="#">
+                          <img src="img/newsletter/app-store.png" alt="">
+                        </a>
+                      </div>
+                      <picture>
+                        <source srcset="img/newsletter/cupom_desk.png" media="(min-width: 800px)">
+                        <img src="img/newsletter/cupom_mob.png" class="home-newsletter-coupon" alt="Cupom para o APP da FUT - 15APP">
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4 col-lg-6">
+                  <img class="home-newsletter-screen d-none d-md-block" src="img/newsletter/tela_desk.png" alt="">
+                  <img class="home-newsletter-screen d-block d-md-none" src="img/newsletter/tela_mob.png" alt="">
+                </div>
+
+              </div>
             </div>
-  
-            <div class="col-12 col-lg-6 col-xl-6">
+            <div class="home-newsletter-2 col-12 col-xl-5 col-lg-6">
   
                 <div class="msg text-center text-lg-left mb-2 mb-lg-0">
                     <strong>Cadastre-se</strong> e receba <strong>novidades e ofertas</strong> toda semana!
@@ -59,7 +73,7 @@
                                     <input id="cmp1" type="text" name="cmp1"  placeholder="seuemail@exemplo.com" format="" class="form-control type_EMAIL field-required" maxlength="80" required="required" />
                                 </div>
                                 <div class="col-12 col-md-7 mb-2 mb-lg-0">
-                                    <select name="cmp12" id="cmp12" hd-name="cmp12" class="form-control invi-select field-required type_LVM">
+                                    <select name="cmp12" id="cmp12" hd-name="cmp12" class="invi-select field-required type_LVM">
                                         <option value=""></option>
                                         <option value="Outro">Outro</option>
                                         <option value="Nenhum">Nenhum</option>
@@ -180,8 +194,6 @@
         </div>
       </div>
     </div>
-    
-
 
     <!-- TOPO -->
     <section class="topo">
@@ -189,8 +201,8 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-5 topo-left">
-            <div class="progressive">
-              <img data-src="img/logo_ucl.svg" src="img/loading.svg" class="topo-logo lazy" alt="Logo da Champions League" >
+            <div class="progressive topo-logo ">
+              <img src="img/logo_ucl.svg" alt="Logo da Champions League" >
             </div>
               <h2 class="topo-title">Bem-vindo ao almanaque da Champions League</h2>
               <p class="topo-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -202,30 +214,34 @@
           <div class="col-12 col-md-7"></div>
           
           <div class="topo-down">
-            <i class="icon-arrow-down"></i>
+            <a href="#historia">
+              <i class="icon-arrow-down"></i>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- HISTORIA -->
-    <section class="historia">
+    <section id="historia" class="historia">
       <div class="container">
-
         <h2 class="historia-title">História</h2>
 
-        <div class="historia-slick">
+        <div class="historia-slick container-slick">
           <div class="item">
             <div class="row">
               <div class="col-12 col-md-7">
-                <img class="item-img" src="img/historia/historia-1.jpeg" alt="História do 1...">
+                
+                <div class="progressive item-img ">
+                  <img data-src="img/historia/historia-1.jpeg" src="img/historia/b-historia-1.jpg" class="lazy" alt="História do 1..." >
+                </div>
               </div>
               <div class="col-12 col-md-5">
                 <h3 class="item-text">História</h3>
                 <h2 class="item-title">O começo</h2>
 
                 <div class="item-description seemore-container seemore-close">
-                  <button class="item-description-button  d-block d-md-none">Ver Mais...</button>
+                  <button class="item-description-button seemore-button d-block d-md-none">Ver Mais...</button>
                   <p>A UEFA Champions League surgiu em no ano de 1955 e era chamada de Copa dos Campões
                     da Europa. Inicialmente, o torneio reunia os campeões de cada país europeu que se enfrentariam
                     em uma grande Copa. 
@@ -254,7 +270,7 @@
                 <h2 class="item-title">O começo</h2>
 
                 <div class="item-description seemore-container seemore-close">
-                  <button class="item-description-button d-block d-md-none">Ver Mais...</button>
+                  <button class="item-description-button seemore-button d-block d-md-none">Ver Mais...</button>
                   <p>A UEFA Champions League surgiu em no ano de 1955 e era chamada de Copa dos Campões
                     da Europa. Inicialmente, o torneio reunia os campeões de cada país europeu que se enfrentariam
                     em uma grande Copa. 
@@ -294,7 +310,9 @@
           <div class="col-12 col-md-6">
             <div class="d-flex campeoes-times">
               <div class="item">
-                <div class="item-escudo item-escudo-real-madrid"></div>
+                <div class="progressive item-escudo">
+                  <img data-src="img/escudos/real_madrid.png" src="img/loading.gif" class="lazy" alt="Escudo do Real Madrid">
+                </div>
                 <h5 class="item-title">Real Madrid</h5>
               </div>
               <div class="item">
@@ -321,6 +339,68 @@
                 <div class="item-escudo item-escudo-real-madrid"></div>
                 <h5 class="item-title">Ajax</h5>
               </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
+              <div class="item">
+                <div class="item-escudo item-escudo-real-madrid"></div>
+                <h5 class="item-title">Ajax</h5>
+              </div>
             </div>
           </div>
         </div>
@@ -333,33 +413,118 @@
       <div class="container">
         <h2 class="curiosidade-title">Curiosidades</h2>
         <div class="curiosidade-slick">
-
-          <div class="contain">
-            <div class="item">
-              <div class="item-img">
-                <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
-              </div>
-              <h5 class="item-title">MAIOR CAMPEÃO</h5>
-              <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
             </div>
-            <div class="item">
-              <div class="item-img">
-                <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
-              </div>
-              <h5 class="item-title">MAIOR CAMPEÃO</h5>
-              <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
-            </div>
-            <div class="item">
-              <div class="item-img">
-                <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
-              </div>
-              <h5 class="item-title">MAIOR CAMPEÃO</h5>
-              <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
-            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
           </div>
-          
-
-
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img class="item-img-escudo" src="img/curiosidades/real_madrid.png" alt="">
+            </div>
+            <h5 class="item-title">MAIOR CAMPEÃO</h5>
+            <p> <b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)</p>
+          </div>
         </div>
       </div>
       
@@ -379,34 +544,36 @@
             </div>
           </div>
           <div class="col-12 col-md-6 banners-right">
-            <div class="d-flex">
-              <div class="banner">
-                <img src="img/banners/banner_2.jpg" alt="" class="banner-img">
+            <div class="d-flex h-100" >
+
+              <div class="banner-row">
+                <div class="banner">
+                  <img src="img/banners/banner_2.jpg" alt="" class="banner-img">
+                  <a href="" class="banner-title">
+                    <span>Confira</span>
+                    <i></i>
+                  </a>
+                </div>
+                <div class="banner">
+                  <img src="img/banners/banner_3.jpg" alt="" class="banner-img">
+                  <a href="" class="banner-title">
+                    <span>Confira</span>
+                    <i></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="banner banner-full">
+                <img src="img/banners/banner_4.jpg" alt="" class="banner-img">
                 <a href="" class="banner-title">
                   <span>Confira</span>
                   <i></i>
                 </a>
               </div>
-              <div class="banner">
-                <img src="img/banners/banner_3.jpg" alt="" class="banner-img">
-                <a href="" class="banner-title">
-                  <span>Confira</span>
-                  <i></i>
-                </a>
-              </div>
+
+              
             </div>
-
-            <div class="banner banner-full">
-              <img src="img/banners/banner_4.jpg" alt="" class="banner-img">
-              <a href="" class="banner-title">
-                <span>Confira</span>
-                <i></i>
-              </a>
-            </div>
-
-
           </div>
-          
         </div>
       </div>
     </section>
@@ -415,12 +582,13 @@
     <section class="artilheiros">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-8 artilheiros-slick">
+          <div class="col-12 col-md-8 artilheiros-slick container-slick">
             <div class="item">
               <div class="d-flex">
                 <div class="item-description">
                   <h3 class="item-description-title">Artilheiros</h3>
-                  <div class="item-description-text">
+                  <div class="item-description-text seemore-container seemore-close">
+                    <button class="item-description-button seemore-button d-block d-md-none">Ver Mais...</button>
                     <p>O Sr. Champions! Cristiano Ronaldo simplesmente derrubou praticamente todos os 
                       recordes individuais. Mais que isso, ele fez o que parecia ser impossível, atingiu 
                       a marca de 141 gols marcados na competição mais importante do mundo. Durante os 
@@ -446,9 +614,11 @@
                     </div>
                     <div class="item-player-bottom-times">
                       <h5>Clubes:</h5>
-                      <img src="img/escudos/real_madrid.png" alt="">
-                      <img src="img/escudos/manchester_united.png" alt="">
-                      <img src="img/escudos/juventus.png" alt="">
+                      <span>
+                        <img src="img/escudos/real_madrid.png" alt="">
+                        <img src="img/escudos/manchester_united.png" alt="">
+                        <img src="img/escudos/juventus.png" alt="">
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -459,7 +629,8 @@
               <div class="d-flex">
                 <div class="item-description">
                   <h3 class="item-description-title">Artilheiros</h3>
-                  <div class="item-description-text">
+                  <div class="item-description-text seemore-container seemore-close">
+                    <button class="item-description-button seemore-button d-block d-md-none">Ver Mais...</button>
                     <p>O Sr. Champions! Cristiano Ronaldo simplesmente derrubou praticamente todos os 
                       recordes individuais. Mais que isso, ele fez o que parecia ser impossível, atingiu 
                       a marca de 141 gols marcados na competição mais importante do mundo. Durante os 
@@ -485,9 +656,12 @@
                     </div>
                     <div class="item-player-bottom-times">
                       <h5>Clubes:</h5>
-                      <img src="img/escudos/real_madrid.png" alt="">
-                      <img src="img/escudos/manchester_united.png" alt="">
-                      <img src="img/escudos/juventus.png" alt="">
+                      <span>
+                        <img src="img/escudos/real_madrid.png" alt="">
+                        <img src="img/escudos/manchester_united.png" alt="">
+                        <img src="img/escudos/juventus.png" alt="">
+                      </span>
+                      
                     </div>
                   </div>
                 </div>
@@ -498,7 +672,9 @@
               <div class="d-flex">
                 <div class="item-description">
                   <h3 class="item-description-title">Artilheiros</h3>
-                  <div class="item-description-text">
+
+                  <div class="item-description-text seemore-container seemore-close">
+                    <button class="item-description-button seemore-button d-block d-md-none">Ver Mais...</button>
                     <p>O Sr. Champions! Cristiano Ronaldo simplesmente derrubou praticamente todos os 
                       recordes individuais. Mais que isso, ele fez o que parecia ser impossível, atingiu 
                       a marca de 141 gols marcados na competição mais importante do mundo. Durante os 
@@ -524,9 +700,12 @@
                     </div>
                     <div class="item-player-bottom-times">
                       <h5>Clubes:</h5>
-                      <img src="img/escudos/real_madrid.png" alt="">
-                      <img src="img/escudos/manchester_united.png" alt="">
-                      <img src="img/escudos/juventus.png" alt="">
+                      <span>
+                        <img src="img/escudos/real_madrid.png" alt="">
+                        <img src="img/escudos/manchester_united.png" alt="">
+                        <img src="img/escudos/juventus.png" alt="">
+                      </span>
+                      
                     </div>
                   </div>
                 </div>
@@ -540,7 +719,7 @@
                     <th>Jogador:</th>
                     <th>Gols:</th>
                 </tr>
-                <tr class="item-active">
+                <tr class="item-option item-active" data-index="1">
                     <td>
                       <img src="img/artilheiros/cr7.png" alt="CR7">
                       <span>Cristiano Ronaldo</span>
@@ -549,7 +728,7 @@
                       <span>141</span>
                     </td>
                 </tr>
-                <tr>
+                <tr class="item-option" data-index="2">
                     <td>
                       <img src="img/artilheiros/cr7.png" alt="CR7">
                       <span>Cristiano Ronaldo</span>
@@ -558,7 +737,7 @@
                       <span>141</span>
                     </td>
                 </tr>
-                <tr>
+                <tr class="item-option" data-index="3">
                   <td>
                     <img src="img/artilheiros/cr7.png" alt="CR7">
                     <span>Cristiano Ronaldo</span>
@@ -598,8 +777,35 @@
                 
               </div>
               <div class="col-12 col-md-7">
-                <div class="item-img">
-                  <img src="img/camisas/barcelona_2011.png" alt="Barcelona 2011">
+                <div class="progressive item-img">
+                  <img data-src="img/camisas/barcelona_2011.png" src="img/camisas/b-barcelona_2011.png" class="lazy" alt="Barcelona 2011">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <h3 class="item-title d-block d-md-none">Uniformes Marcantes</h3>
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <h3 class="item-title d-none d-md-block">Uniformes Marcantes</h3>
+
+                <h4 class="item-time">Barcelona 2011</h4>
+                <div class="item-description">
+                  <p>Um dos maiores times de todos os tempos também ficou eternizado 
+                    pelo uniforme que vestia. O lendário Barcelona do Guardiola atingiu 
+                    um nível de jogo talvez nunca antes visto na história da UEFA 
+                    Champions League. Era a consagração de uma ideia construída a mais 
+                    de uma década e que levou o desempenho ao ápice. Como não lembrar 
+                    dos duelos contra o Real Madrid nas semis do torneio? O Messi passeava
+                    pelo gramado de Madrid e as golas amarelas da camisa não eram nem
+                    notadas perto da beleza de ver aquele time jogar. </p>
+                </div>
+                
+              </div>
+              <div class="col-12 col-md-7">
+                <div class="progressive item-img">
+                  <img data-src="img/camisas/barcelona_2011.png" src="img/camisas/b-barcelona_2011.png" class="lazy" alt="Barcelona 2011">
                 </div>
               </div>
             </div>
@@ -626,34 +832,9 @@
               </div>
               <div class="col-12 col-md-7">
                 <div class="item-img">
-                  <img src="img/camisas/barcelona_2011.png" alt="Barcelona 2011">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <h3 class="item-title d-block d-md-none">Uniformes Marcantes</h3>
-            <div class="row">
-              <div class="col-12 col-md-5">
-                <h3 class="item-title d-none d-md-block">Uniformes Marcantes</h3>
-
-                <h4 class="item-time">Barcelona 2011</h4>
-                <div class="item-description">
-                  <p>Um dos maiores times de todos os tempos também ficou eternizado 
-                    pelo uniforme que vestia. O lendário Barcelona do Guardiola atingiu 
-                    um nível de jogo talvez nunca antes visto na história da UEFA 
-                    Champions League. Era a consagração de uma ideia construída a mais 
-                    de uma década e que levou o desempenho ao ápice. Como não lembrar 
-                    dos duelos contra o Real Madrid nas semis do torneio? O Messi passeava
-                    pelo gramado de Madrid e as golas amarelas da camisa não eram nem
-                    notadas perto da beleza de ver aquele time jogar. </p>
-                </div>
-                
-              </div>
-              <div class="col-12 col-md-7">
-                <div class="item-img">
-                  <img src="img/camisas/barcelona_2011.png" alt="Barcelona 2011">
+                  <div class="progressive item-img">
+                    <img data-src="img/camisas/barcelona_2011.png" src="img/camisas/b-barcelona_2011.png" class="lazy" alt="Barcelona 2011">
+                  </div>
                 </div>
               </div>
             </div>
@@ -668,6 +849,327 @@
       <div class="container">
         <div class="estatistica-players">
           <h2 class="estatistica-title">Estatísticas Jogadores</h2>
+          <div class="estatistica-slick">
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <div class="ball-img progressive ">
+                    <img data-src="img/artilheiros/benzema.png" src="img/loading.gif" class="lazy" alt="">
+                  </div>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <div class="ball-img progressive ">
+                    <img data-src="img/artilheiros/benzema.png" src="img/loading.gif" class="lazy" alt="">
+                  </div>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <div class="ball-img progressive ">
+                    <img data-src="img/artilheiros/benzema.png" src="img/loading.gif" class="lazy" alt="">
+                  </div>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <div class="ball-img progressive ">
+                    <img data-src="img/artilheiros/benzema.png" src="img/loading.gif" class="lazy" alt="">
+                  </div>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <div class="ball-img progressive ">
+                    <img data-src="img/artilheiros/benzema.png" src="img/loading.gif" class="lazy" alt="">
+                  </div>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header">Artilheiros</div>
+  
+              <div class="item-row item-row-main">
+                <div class="id">
+                  <span class="pos">1</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Cristiano Ronaldo<h4/>
+                <span class="pnts">141</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">2</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                
+                <h4 class="name">Lionel Messi<h4/>
+                <span class="pnts">125</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">3</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Robert Lewandowski<h4/>
+                <span class="pnts">85</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">4</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Karim Benzema<h4/>
+                <span class="pnts">79</span>
+              </div>
+  
+              <div class="item-row">
+                <div class="id">
+                  <span class="pos">5</span>
+                  <span class="sprite-ucl sprite-ucl-small-cr7"></span>
+                </div>
+                <h4 class="name">Raúl González<h4/>
+                <span class="pnts">71</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- ESTATÍSTICA -->
+     <section class="estatistica">
+      <div class="container">
+        <div class="estatistica-players">
+          <h2 class="estatistica-title">Estatísticas Clubes</h2>
           <div class="estatistica-slick">
             <div class="item">
               <div class="item-header">Artilheiros</div>
@@ -972,7 +1474,6 @@
           </div>
         </div>
       </div>
-      
     </section>
     
 

@@ -26,9 +26,9 @@
         .item {
             
             &-escudo {
-                
-                
-
+                .img {
+                    transform: scale(1.1)
+                }
             }
             &-title {
                 font-weight: 400;

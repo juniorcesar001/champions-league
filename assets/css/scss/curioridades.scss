@@ -32,9 +32,10 @@
                     width: 130px;
                     height: 130px;
                     margin: 0 auto;
-                }
-                img {
-                    display: block;
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
                 }
             }
             &-title {
@@ -78,13 +79,17 @@
     .curiosidade {
         padding: 45px 0 50px;
         &-title {
-    
+            margin-left: 30px;
         }
         &-slick {
             margin-top: 25px;
             
             .contain {
                 flex-wrap: wrap;
+            }
+            .slick-slide {
+                width: 100vw !important;
+                padding: 0 20px ;
             }
             .item {
                 max-width: 100%;

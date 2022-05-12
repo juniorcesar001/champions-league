@@ -1,10 +1,5 @@
 .banners {
     padding: 75px 0 96px;
-
-    
-    .col-12 {
-
-    }
     &-left {
         padding: 0 10px 0 0;
     }
@@ -18,7 +13,6 @@
 
     .banner {
         width: 100%;
-        background-color: $blue_dark;
         border-radius: 10px;
         overflow: hidden;
         position: relative;
@@ -26,15 +20,29 @@
             display: flex;
             gap: 20px;
         }
-        img {
-            width: 100%;
+        
+        &-img {
+            img {
+                width: 100%;
+            }
         }
-        a {
+        &-title {
             width: 100%;
             display: flex;
             justify-content: space-between;
             padding: 15px 30px;
             text-decoration: none;
+            background-color: $blue_dark;
+            &:hover  {
+                background-color: #22E3C3;
+                span {
+                    color: $blue_dark;
+                    opacity: 1;
+                }
+                i {
+                    color: $blue_dark;
+                }
+            }
             span {
                 font-weight: 500;
                 color: #FFFFFF;
@@ -44,6 +52,7 @@
                 display: block;
                 width: 24px;
                 height: 24px;
+                color: #FFFFFF;
                 background-color: aliceblue;
             }
         }
@@ -55,6 +64,20 @@
 @media (max-width: 800px) { 
 
     .banners {
-
+        padding: 60px 0;
+        &-left {
+            padding: 0 25px;
+        }
+        &-right {
+            padding: 0 25px;
+            .banner { 
+                margin-top: 10px;
+            }
+        }
+        .banner {
+            &-row {
+                gap: 10px;
+            }
+        }
     }
 }

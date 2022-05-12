@@ -1,0 +1,203 @@
+{
+    "top": {
+        "title": "Bem-vindo ao almanaque da Champions League",
+        "description": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida eros eros, eget malesuada leo cursus eu. Sed congue, augue vel eleifend aliquam, magna odio rutrum erat, quis ullamcorper risus lorem vel est. Phasellus vestibulum consectetur scelerisque."
+        ]
+    },
+    "history": [
+        {
+            "title": "O começo",
+            "description": [
+                "A UEFA Champions League surgiu em no ano de 1955 e era chamada de Copa dos Campões da Europa. Inicialmente, o torneio reunia os campeões de cada país europeu que se enfrentariam em uma grande Copa. ",
+                "A ideia surgiu dos jornalistas franceses Jacques Ferran e Gabriel Hanot, que trabalhavam para o periódico local L'Équipe. Segundo eles, em entrevista no ano de 2018, a inspiração do torneio surgiu após o Campeonato Sul-Americano de Campeões e da Copa Rio, dois torneiros organizados por sul-americanos, que opunham forças nacionais em uma grande competição continental. ",
+                "Após algumas tentativas frustradas, surge a Copa dos Campeões da Europa. Junto dela, aparece para o restante da Europa e do mundo o gigante Real Madrid. Inicialmente, o domínio dos merengues foi tanto que as cinco primeiras edições foram vencidas pela equipe espanhola.",
+                "Aos poucos a competição passava a ter algumas alterações, como o incremento dos times vice campeões nacionais, por exemplo. Apenas em 1993 o torneio passou a ser conhecido como é hoje: a UEFA Champions League, ou Liga dos Campeões da Europa. ",
+                "A mudança se deu principalmente pela comercialização de novos contratos de direitos de TV. Esta ação tornou a competição ainda mais comercial e atraente aos olhares do resto do mundo, fortalecendo parcerias e finanças dos clubes europeus. Desde então, a UCL é a competição de clubes mais importante do planeta, arrecadando bilhões de reais todos os anos. "
+            ],
+            "image": {
+                "original": "..",
+                "progressive": ".."
+            }
+        }
+    ],
+    "champions": {
+        "title": "Campeões",
+        "description": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida eros eros, eget malesuada leo cursus eu. Sed congue, augue vel eleifend aliquam, magna odio rutrum erat, quis ullamcorper risus lorem vel est. Phasellus vestibulum consectetur scelerisque. Nullam volutpat fringilla ante, vitae auctor justo dapibus et. Quisque vel risus nec mi eleifend eleifend. Phasellus suscipit tellus sit amet mi rutrum, ut hendrerit risus semper. Proin sollicitudin feugiat est hendrerit malesuada. Maecenas condimentum a mauris a lobortis. Proin vitae volutpat enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sed lacus semper est posuere consequat sit amet ut sem."
+        ],
+        "icons": [
+            {
+                "time": "Real Madrid",
+                "icon": "https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/champions-league/curiosidades/cr7.png"
+            },{
+                "time": "Real Madrid",
+                "icon": "https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/champions-league/curiosidades/cr7.png"
+            },{
+                "time": "Real Madrid",
+                "icon": "https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/champions-league/curiosidades/cr7.png"
+            }
+        ]
+    },
+    "curiosities": {
+        "title": "Curiosidades",
+        "description": [
+            {
+                "title": "Maior Campeão",
+                "description": "<b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)",
+                "icon": {
+                    "type": "rounded",
+                    "url": "https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/champions-league/curiosidades/cr7.png"
+                }
+            },{
+                "title": "Maior Campeão",
+                "description": "<b>Real Madrid venceu: 13 vezes</b> (1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017 e 2018)",
+                "icon": {
+                    "type": "full",
+                    "url": "https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/champions-league/curiosidades/cr7.png"
+                }
+            }
+        ]
+    },
+    "banners": [
+        {
+            "image": {
+                "original": "..",
+                "progressive": ".."
+            },
+            "title": "Confira"
+        },{
+            "image": {
+                "original": "..",
+                "progressive": ".."
+            },
+            "title": "Confira"
+        },{
+            "image": {
+                "original": "..",
+                "progressive": ".."
+            },
+            "title": "Confira"
+        },{
+            "image": {
+                "original": "..",
+                "progressive": ".."
+            },
+            "title": "Confira"
+        }
+    ],
+    "gunners": [ 
+        {
+            "description": "O Sr. Champions! Cristiano Ronaldo simplesmente derrubou praticamente todos os recordes individuais. Mais que isso, ele fez o que parecia ser impossível, atingiu a marca de 141 gols marcados na competição mais importante do mundo. Durante os últimos 17 anos, ele e Messi elevaram ao topo o nível do futebol, consequentemente da liga mais importante do mundo. Rivais em praticamente todas as estatísticas, CR7 fez com que a UEFA Champions League parecesse algo fácil. Lider em gols, assistências, jogos e pênaltis convertidos. Sim, o portuga pode ser considerado o maior jogador da história do torneio. Após algumas tentativas frustradas, surge a Copa dos Campeões da Europa. Junto dela, aparece para o restante da Europa e do mundo o gigante Real Madrid. Inicialmente, o domínio dos merengues foi tanto que as cinco primeiras edições foram vencidas pela equipe espanhola.",
+            "name": "Cristiano Ronaldo",
+            "gols": 141,
+            "clubs": [
+                {
+                    "alt": "Icone de Real Madrid",
+                    "url": "..."
+                }
+            ],
+            "icon": "..."
+        }
+    ],
+    "uniform": [
+        {
+            "title": "Barcelona 2011",
+            "description": [
+                "A camisa que marcou época! Assim se define o manto do Real Madrid, primeiro campeão da Liga dos Campões. Os merengues engataram uma sequencia de incríveis 5 títulos consecutivos. Os troféus são para sempre, mas as imagens de craques como Alfredo Di Stefano e Ferenc Puskas usando o uniforme branco do Madrid também são. Vale lembrar outro uniforme marcante deste período, a camisa dos Encarnados do Benfica, manto usado pelo gênio Eusébio."
+            ],
+            "image": {
+                "original": "..",
+                "progressive": ".."
+            }
+        },{
+            "title": "Barcelona 2011",
+            "description": [
+                "A camisa que marcou época! Assim se define o manto do Real Madrid, primeiro campeão da Liga dos Campões. Os merengues engataram uma sequencia de incríveis 5 títulos consecutivos. Os troféus são para sempre, mas as imagens de craques como Alfredo Di Stefano e Ferenc Puskas usando o uniforme branco do Madrid também são. Vale lembrar outro uniforme marcante deste período, a camisa dos Encarnados do Benfica, manto usado pelo gênio Eusébio."
+            ],
+            "image": {
+                "original": "..",
+                "progressive": ".."
+            }
+        }
+    ],
+    "statistics-players": {
+        "title": "Estatísticas Jogadores",
+        "slides": [
+            {
+                "title": "Artilheiros",
+                "item": [
+                    {
+                        "pos": 1,
+                        "url": "...",
+                        "name": "Cristiano Ronaldo",
+                        "score": 141
+                    },{
+                        "pos": 2,
+                        "url": "...",
+                        "name": "Cristiano Ronaldo",
+                        "score": 141
+                    },{
+                        "pos": 3,
+                        "url": "...",
+                        "name": "Cristiano Ronaldo",
+                        "score": 141
+                    } ,
+                    {
+                        "pos": 4,
+                        "url": "...",
+                        "name": "Cristiano Ronaldo",
+                        "score": 141
+                    },{
+                        "pos": 5,
+                        "url": "...",
+                        "name": "Cristiano Ronaldo",
+                        "score": 141
+                    } 
+                ]
+            }
+        ]
+    },
+    "statistics-clubs": {
+        "title": "Estatísticas Clubes",
+        "slides": [
+            {
+                "title": "mais Títulos",
+                "item": [
+                    {
+                        "pos": 1,
+                        "url": "...",
+                        "club": "Real Madrid",
+                        "country": "Espanha",
+                        "score": 141
+                    },{
+                        "pos": 2,
+                        "url": "...",
+                        "club": "Real Madrid",
+                        "country": "Espanha",
+                        "score": 141
+                    },{
+                        "pos": 3,
+                        "url": "...",
+                        "club": "Real Madrid",
+                        "country": "Espanha",
+                        "score": 141
+                    } ,
+                    {
+                        "pos": 4,
+                        "url": "...",
+                        "club": "Real Madrid",
+                        "country": "Espanha",
+                        "score": 141
+                    },{
+                        "pos": 5,
+                        "url": "...",
+                        "club": "Real Madrid",
+                        "country": "Espanha",
+                        "score": 141
+                    } 
+                ]
+            }
+        ]
+    }
+}

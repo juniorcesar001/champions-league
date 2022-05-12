@@ -1,9 +1,7 @@
 .estatistica {
     padding: 85px 0 75px;
     background-color: #E0E0E0;
-    &-players {
 
-    }
     &-title {
         font-weight: 600;
         font-size: 24px;
@@ -101,6 +99,22 @@
                         font-weight: bold;
                     }
                 }
+            }
+        }
+    }
+
+    .slick-dots {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+        button {
+            background: #000;
+        }
+
+        li.slick-active {
+            button {
+                opacity: 0.5;
+                width: 40px;
             }
         }
     }

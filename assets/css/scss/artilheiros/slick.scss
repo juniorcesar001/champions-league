@@ -25,7 +25,7 @@
         }
         &-player {
             width: 40%;
-            background-color: $blue_lighter;
+            background: linear-gradient(88.43deg, #1633BB 0.88%, #0B1F97 98.21%);
             border-radius: 10px;
             padding: 35px;
             &-thumb {
@@ -81,20 +81,7 @@
         }
     }
     .slick-dots {
-        width: 100%;
-        display: none;
-        justify-content: center;
-        margin-top: 20px;
-        button {
-            background: white;
-        }
-
-        li.slick-active {
-            button {
-                opacity: 0.7;
-                width: 40px;
-            }
-        }
+        display: none !important;
     }
 
     @media (max-width: 800px) { 
@@ -103,7 +90,9 @@
                 flex-wrap: wrap;
             }
             &-description {
+                
                 width: 100%;
+                padding: 35px 25px 0 25px;
                 &-text {
                     padding-bottom: 70px;
                     &.seemore-container {

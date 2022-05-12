@@ -534,6 +534,9 @@
 .artilheiros-nav .item-active td span {
   font-weight: bold !important;
 }
+.artilheiros-nav .slick-dots {
+  display: none;
+}
 @media (max-width: 800px) {
   .artilheiros-nav {
     display: none;
@@ -563,7 +566,7 @@
 }
 .artilheiros-slick .item-player {
   width: 40%;
-  background-color: #0B1F97;
+  background: linear-gradient(88.43deg, #1633BB 0.88%, #0B1F97 98.21%);
   border-radius: 10px;
   padding: 35px;
 }
@@ -611,17 +614,7 @@
   width: 32px;
 }
 .artilheiros-slick .slick-dots {
-  width: 100%;
-  display: none;
-  justify-content: center;
-  margin-top: 20px;
-}
-.artilheiros-slick .slick-dots button {
-  background: white;
-}
-.artilheiros-slick .slick-dots li.slick-active button {
-  opacity: 0.7;
-  width: 40px;
+  display: none !important;
 }
 @media (max-width: 800px) {
   .artilheiros-slick .item > .d-flex {
@@ -629,6 +622,7 @@
   }
   .artilheiros-slick .item-description {
     width: 100%;
+    padding: 35px 25px 0 25px;
   }
   .artilheiros-slick .item-description-text {
     padding-bottom: 70px;
@@ -692,7 +686,6 @@
 }
 .banners .banner {
   width: 100%;
-  background-color: #0A0961;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -701,28 +694,57 @@
   display: flex;
   gap: 20px;
 }
-.banners .banner img {
+.banners .banner-img img {
   width: 100%;
 }
-.banners .banner a {
+.banners .banner-title {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 15px 30px;
   text-decoration: none;
+  background-color: #0A0961;
 }
-.banners .banner a span {
+.banners .banner-title:hover {
+  background-color: #22E3C3;
+}
+.banners .banner-title:hover span {
+  color: #0A0961;
+  opacity: 1;
+}
+.banners .banner-title:hover i {
+  color: #0A0961;
+}
+.banners .banner-title span {
   font-weight: 500;
   color: #FFFFFF;
   opacity: 0.5;
 }
-.banners .banner a i {
+.banners .banner-title i {
   display: block;
   width: 24px;
   height: 24px;
+  color: #FFFFFF;
   background-color: aliceblue;
 }
 
+@media (max-width: 800px) {
+  .banners {
+    padding: 60px 0;
+  }
+  .banners-left {
+    padding: 0 25px;
+  }
+  .banners-right {
+    padding: 0 25px;
+  }
+  .banners-right .banner {
+    margin-top: 10px;
+  }
+  .banners .banner-row {
+    gap: 10px;
+  }
+}
 .campeoes {
   padding: 60px 0 50px;
   background: #020987;
@@ -748,6 +770,9 @@
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
+}
+.campeoes-times .item-escudo .img {
+  transform: scale(1.1);
 }
 .campeoes-times .item-title {
   font-weight: 400;
@@ -837,8 +862,9 @@
   height: 130px;
   margin: 0 auto;
 }
-.curiosidade-slick .item-img img {
+.curiosidade-slick .item-img-escudo img {
   display: block;
+  width: 100%;
 }
 .curiosidade-slick .item-title {
   font-weight: bold;
@@ -872,11 +898,18 @@
   .curiosidade {
     padding: 45px 0 50px;
   }
+  .curiosidade-title {
+    margin-left: 30px;
+  }
   .curiosidade-slick {
     margin-top: 25px;
   }
   .curiosidade-slick .contain {
     flex-wrap: wrap;
+  }
+  .curiosidade-slick .slick-slide {
+    width: 100vw !important;
+    padding: 0 20px;
   }
   .curiosidade-slick .item {
     max-width: 100%;
@@ -1003,6 +1036,18 @@
 .estatistica-slick .item-row-main .pnts {
   color: white;
   font-weight: bold;
+}
+.estatistica .slick-dots {
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+.estatistica .slick-dots button {
+  background: #000;
+}
+.estatistica .slick-dots li.slick-active button {
+  opacity: 0.5;
+  width: 40px;
 }
 
 @media (max-width: 800px) {
